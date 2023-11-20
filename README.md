@@ -2,18 +2,18 @@
 <h1>Rainfall Prediction Web App</h1>
 
 <h2>Overview</h2>
-<p>This Rainfall Prediction Web App allows users to predict rainfall for a specific date using a machine learning model. Users can either manually enter weather data or input only the date, and the backend fetches additional information from the OpenWeatherMap API to make predictions.<p>
+<p>This Rainfall Prediction Web App allows users to predict rainfall for a specific date using a machine learning model. Users can either manually enter weather data or input only the date, and the backend fetches additional information from the OpenWeatherMap API to make predictions.</p>
 
 <h2>Requirements:</h2>
 To set up the virtual environment and install the required libraries, run the following commands:
 
 <b>1. Clone the repository to your local machine:<b>
 ```bash
-git clone https://github.com/your_username/your_project.git
+git clone https://github.com/Flanker-shyam/Rainfall-Prediction.git
 ```
 <b>2. Navigate into the project directory:<b>
 ```bash
-cd your_project
+cd Rainfall-Prediction
 ```
 <b>3. Create a new Python virtual environment (recommended):<b>
 ```bash
@@ -43,10 +43,6 @@ Once the web app is launched, you can either enter the entire dataset manually o
 <li>Responsive UI: The Streamlit app provides an intuitive and user-friendly interface.</li>
 </ul>
 
-<h2>License</h2>
-This project is licensed under the MIT License.
-
 <h2>Acknowledgements:</h2>
-We would like to express our gratitude to the Streamlit team for creating this user-friendly Python library.
-
-We would also like to thank the OpenWeatherMap team for providing the Weather API used in this project.
+<p></p>We would like to express our gratitude to the Streamlit team for creating this user-friendly Python library.
+We would also like to thank the [OpenWeatherMap team]([url](https://openweathermap.org/) for providing the Weather API used in this project.</p>
