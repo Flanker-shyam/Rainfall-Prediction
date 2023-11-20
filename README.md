@@ -28,19 +28,20 @@ pip install -r requirements.txt
 
 <h2>How to Use:</h2>
 To launch the web app, simply run the following command:
+
 ```bash
 streamlit run Rainfall_main.py
 ```
 
 Once the web app is launched, you can either enter the entire dataset manually or just the date for which you want to get the rainfall prediction.
 
-<h2>Features<h2>
-<ol>
-<l1>Manual Input: Users can enter weather data manually.</l1>
-<l1>Date-Based Prediction: Users can input a specific date, and the app fetches additional weather information from OpenWeatherMap to make predictions.</l1>
-<l1>Machine Learning Model: The app uses a machine learning model for rainfall predictions.</l1>
-<l1>Responsive UI: The Streamlit app provides an intuitive and user-friendly interface.</l1>
-</ol>
+<h2>Features</h2>
+<ul>
+<li>Manual Input: Users can enter weather data manually.</li>
+<li>Date-Based Prediction: Users can input a specific date, and the app fetches additional weather information from OpenWeatherMap to make predictions.</li>
+<li>Machine Learning Model: The app uses a machine learning model for rainfall predictions.</li>
+<li>Responsive UI: The Streamlit app provides an intuitive and user-friendly interface.</li>
+</ul>
 
 <h2>License</h2>
 This project is licensed under the MIT License.
