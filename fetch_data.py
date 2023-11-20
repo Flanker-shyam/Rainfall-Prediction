@@ -1,4 +1,6 @@
 import requests
+from dotenv import load_dotenv
+import os
 
 def fetch_data(date):
     """
@@ -11,7 +13,10 @@ def fetch_data(date):
         tuple: A tuple containing arrays of temperature, humidity, sea level, visibility, wind speed, and events.
                Each array contains the corresponding data for the specified date.
     """
-    api_key = "19baba18c4026b743e4f52631cb6ffd6"
+
+    load_dotenv()
+    secret_key = os.environ.get('API_KEY')
+    api_key = secret_key
     city = 'Austin'
     country_code = 'US'
     date = date # Specify the date you are interested in
